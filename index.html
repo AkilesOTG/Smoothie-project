@@ -4,52 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Сюда подключаем стили -->
-
+    <link rel="stylesheet" href="/css/normalize.css">
     <title>Smoothie project</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="header-top">
-            <nav>
-                <ul> p0oi900
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Story</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Testimonials</a></li>
+        <div class="header__top">
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Shop</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Story</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">About</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Blog</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">Testimonials</a>
+                    </li>
                 </ul>
             </nav>
-            <div class="logo">
-                <a href="">
-                    <img src="" alt="">
+            <div class="header__logo logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="" alt="">
                 </a>
             </div>
 
-            <div class="personal">
-                <ul>
-                    <li><a href=""><img src="" alt=""></a></li>
-                    <li><a href=""><img src="" alt=""></a></li>
-                    <li><a href=""><img src="" alt=""></a>
-                        <span>3</span>
+            <div class="header__personal personal">
+                <ul class="personal__list">
+                    <li class="personal__item">
+                        <a class="personal__link" href="">
+                            <img class="personal__icon-search" src="" alt="">
+                        </a>
+                    </li>
+                    <li class="personal__item">
+                        <a class="personal__link" href="">
+                            <img class="personal_icon-user" src="" alt="">
+                        </a>
+                    </li>
+                    <li class="personal__item">
+                        <a class="personal__link-cart" href="">
+                            <img class="personal__cart_icon" src="" alt="">
+                        </a>
+                        <span class="personal__cart-count">3</span>
                     </li>
                 </ul>
             </div>
-            <div class="social">
-                <ul>
-                    <li><a href=""><img src="" alt=""></a></li>
-                    <li><a href=""><img src="" alt=""></a></li>
-                    <li><a href=""><img src="" alt=""></a></li>
+            <div class="header__social social">
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a class="social__link" href="">
+                            <img class="social__icon" src="" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="">
+                            <img class="social__icon" src="" alt="">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="">
+                            <img class="social__icon" src="" alt="">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
 
-        <div class="header-content">
-            <button>Shop now <img src="" alt=""></button>
+        <div class="header__content">
+            <button class="header__btn btn btn--green-bg">Shop now<img class="btn__arrow-yellow" src="" alt=""></button>
         </div>
     </header>
+
 
     <section class="smoothies">
         <h1>What are these smoothies?</h1>
@@ -174,7 +209,7 @@
             <img src="" alt="">
             <article>
                 <h3>ASAFOETIDA - THE NEXT TURMERIC?</h3>
-                <time>Jun 16, 2020</time>
+                <time datetime="16-07-2020">Jun 16, 2020</time>
                 <p>If the fruit ingredients and the green vegetable ingredients are both
                     juiced ahead of time, the mixed juice doesn't
                     even have to be blended like a smoothie,
