@@ -1,0 +1,187 @@
+/* Здесь подключаем шрифты, используя правило @font-face*/
+@font-face {
+    font-family: "Muli"; 
+    src: url(/it-incubator/Smoothie-project-start/assets/fonts/Muli.ttf);
+    font-style: normal;
+}
+/*И повторяем этот кусок кода изменяя имя шрифта и путь к файлу*/
+
+
+/* Общие стили */
+* {
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+font-family: Muli;   
+}
+
+/* Header */
+
+.header {
+background: url(/it-incubator/Smoothie-project-start/assets/img/header-bg.png) center no-repeat #e25959;
+height: 1080px;
+}
+
+.header__top {
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+padding-top: 70px;
+padding-bottom: 120px;
+padding-left: 100px; 
+padding-right: 100px;
+border: 1px solid red;
+}
+
+.menu {
+font-family: Muli;
+
+}
+
+.header__menu {
+font-size: 16px;
+text-transform: uppercase; 
+border: 1px solid red;
+width: 520px;
+padding-top: 20px; 
+}
+
+.menu__item {
+display: inline-block;
+margin-right: 20px;
+}
+
+.menu__link {
+color: #ffffff;
+text-decoration: none;
+
+}
+
+.header__logo {
+    border: 1px solid red;
+    width: 210px;    
+}
+
+.header__personal {
+width: 160px;
+padding-top: 20px; 
+}
+
+.personal {
+border: 1px solid red;
+
+}
+
+.personal__item {
+    display: inline-block;
+    margin-right: 20px;
+    }
+
+.personal__cart-count {
+    background-color: white;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    line-height: 15px;
+    text-align: center;
+ font-size: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}    
+
+.header__social {
+    width: 180px;
+    padding-top: 20px; 
+}
+
+.social {
+    border: 1px solid red;
+    
+}
+
+.social__list {
+
+}
+
+.social__item {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  padding-left: 10px;
+  padding-top: 8px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.header__content {
+ display: flex;   
+ flex: row nowrap;
+ justify-content: center;
+}
+
+.btn {
+    color: white;
+    text-align: center;
+}
+.header__btn {
+    width: 280px;
+    height: 70px;
+    padding: 25px 40px 25px 40px;
+    font-size: 24px;
+}
+
+.btn--green-bg {
+background-color: #0aa566;
+border-radius: 35px;
+color: 
+
+}
+
+
+
+/* Smoothies */
+
+
+/* About */
+
+
+/* Products */
+
+
+/* Story */
+
+
+/* Testimonials */
+
+
+/* Blog */
+
+
+/* Instagram */
+
+
+/* Footer */
+
+
+
+/* Здесь будут медиа запросы */
+
+
+
+
+
