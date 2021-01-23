@@ -168,23 +168,30 @@ display: flex;
     color: white;
     font-weight: 800;
     font-size: 21px;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
 }
 .header__btn {
     width: 280px;
     height: 70px;
     font-size: 24px;
     border: 0;
+    padding-left: 40px;
 }
 
 .btn--green-bg {
 background-color: #0aa566;
-border-radius: 35px;
+text-align: left;
+padding-left: 30px;
 }
 
-.btn__arrow-yellow {
+.btn__arrow-yellow-header {
 position: relative;
-left: 12px;
-top: 2px;   
+top: 2px;
+margin-left: 70px;   
 }
 
 
@@ -205,6 +212,7 @@ color: #f7ae3b;
 
 .title {
 font-weight: 800;
+letter-spacing: -1px;
 }
 
 .smoothies__lead {
@@ -304,7 +312,6 @@ margin-top: 110px;
 
 .about__title {
 font-size: 55px;
-letter-spacing: -1.1px;
 text-align: left;
 color: white;
 margin-bottom: 50px;
@@ -335,8 +342,13 @@ font-weight: 800;
     width: 290px;
     height: 50px;
     font-size: 16px;
-    border-radius: 35px;
 }
+
+.btn__arrow-yellow-about {
+    position: relative;
+    top: 2px;
+    margin-left: 30px;   
+    }
 
 .btn--yellow-border {
 border: 2px solid #fcb438;
@@ -381,9 +393,10 @@ margin-top: 45px;
 }
 
 .products__caption {
- align-self: center;
- font-size: 24px;
- margin-bottom: 10px;
+align-self: center;
+font-size: 24px;
+letter-spacing: normal;
+margin-bottom: 10px;
 }
 
 .products__desc {
@@ -396,7 +409,6 @@ margin-top: 45px;
     align-self: center;
     width: 204px;
     height: 60px;
-    border-radius: 35px;
 }
 
 .btn--white-border {
@@ -413,9 +425,64 @@ top: 2px;
 
 /* Story */
 
+.story {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 120px;
+padding-bottom: 160px;
+}
+
+.story__content {
+margin-left: 310px;
+margin-right: 205px;
+}
+
+.story__title {
+font-size: 50px;
+color: #f7ae3b;
+margin-bottom: 45px;
+}
+
+.story__lead {
+max-width: 510px;
+font-size: 18px;
+line-height: 2;
+margin-bottom: 60px;
+}
+
+.story__btn {
+width: 300px;
+height: 60px;
+border: 0;
+}
+
+.btn__arrow-yellow-story {
+    position: relative;
+    top: 2px;
+    margin-left: 80px;   
+    }
+
+.story__image-block {
+
+}
+
+.story__img {
+
+}
+
+.story__sketch {
+position: relative;
+bottom: 360px;
+right: 760px;
+}
+
 
 /* Testimonials */
 
+.testimonials {
+background-color: #672f1b;   
+}
 
 /* Blog */
 
