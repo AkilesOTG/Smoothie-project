@@ -4,6 +4,18 @@
     src: url(/it-incubator/Smoothie-project-start/assets/fonts/Muli.ttf);
     font-style: normal;
 }
+
+@font-face {
+    font-family: "Muli-Bold"; 
+    src: url(/it-incubator/Smoothie-project-start/assets/fonts/Muli-Bold.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Muli-Italic"; 
+    src: url(/it-incubator/Smoothie-project-start/assets/fonts/Muli-Italic.ttf);
+    font-style: italic;
+}
 /*И повторяем этот кусок кода изменяя имя шрифта и путь к файлу*/
 
 
@@ -190,8 +202,8 @@ padding-left: 30px;
 
 .btn__arrow-yellow-header {
 position: relative;
-top: 2px;
-margin-left: 70px;   
+top: 1px;
+margin-left: 60px;   
 }
 
 
@@ -211,7 +223,7 @@ color: #f7ae3b;
 }
 
 .title {
-font-weight: 800;
+font-family: Muli-Bold;
 letter-spacing: -1px;
 }
 
@@ -347,7 +359,7 @@ font-weight: 800;
 .btn__arrow-yellow-about {
     position: relative;
     top: 2px;
-    margin-left: 30px;   
+    margin-left: 20px;   
     }
 
 .btn--yellow-border {
@@ -403,6 +415,7 @@ margin-bottom: 10px;
  align-self: center;
  font-size: 21px;
  margin-bottom: 65px;
+ font-style: italic;
 }
 
 .products__btn {
@@ -434,7 +447,7 @@ padding-bottom: 160px;
 }
 
 .story__content {
-margin-left: 310px;
+/*margin-left: 310px;*/
 margin-right: 205px;
 }
 
@@ -460,22 +473,22 @@ border: 0;
 .btn__arrow-yellow-story {
     position: relative;
     top: 2px;
-    margin-left: 80px;   
+    margin-left: 75px;   
     }
 
 .story__image-block {
-
+/*margin-right: 310px;*/
 }
 
 .story__img {
 
 }
 
-.story__sketch {
+/*.story__sketch {
 position: relative;
 bottom: 360px;
 right: 760px;
-}
+} */
 
 
 /* Testimonials */
