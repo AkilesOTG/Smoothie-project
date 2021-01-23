@@ -12,6 +12,7 @@
 <body>
     <header class="header">
         <div class="header__top">
+
             <nav class="header__menu menu">
                 <ul class="menu__list">
                     <li class="menu__item">
@@ -34,50 +35,54 @@
                     </li>
                 </ul>
             </nav>
+
             <div class="header__logo logo">
                 <a class="logo__link" href="#">
                     <img class="logo__img" src="assets/img/logo.png" alt="">
                 </a>
             </div>
 
-            <div class="header__personal personal">
-                <ul class="personal__list">
-                    <li class="personal__item">
-                        <a class="personal__link" href="#">
-                            <img class="personal__icon-search" src="assets/img/search-icon.png" alt="">
-                        </a>
-                    </li>
-                    <li class="personal__item">
-                        <a class="personal__link" href="#">
-                            <img class="personal_icon-user" src="assets/img/user-icon.png" alt="">
-                        </a>
-                    </li>
-                    <li class="personal__item">
-                        <a class="personal__link-cart" href="#">
-                            <img class="personal__cart_icon" src="assets/img/cart-icon.png" alt="">
-                        </a>
-                        <span class="personal__cart-count">3</span>
-                    </li>
-                </ul>
-            </div>
-            <div class="header__social social">
-                <ul class="social__list">
-                    <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__icon" src="assets/img/facebook-icon.png" alt="">
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__icon" src="assets/img/pinterest-icon.png" alt="">
-                        </a>
-                    </li>
-                    <li class="social__item">
-                        <a class="social__link" href="#">
-                            <img class="social__icon" src="assets/img/instagram-icon.png" alt="">
-                        </a>
-                    </li>
-                </ul>
+            <div class="header__icons">
+                <div class="header__personal personal">
+                    <ul class="personal__list">
+                        <li class="personal__item">
+                            <a class="personal__link" href="#">
+                                <img class="personal__icon-search" src="assets/img/search-icon.png" alt="">
+                            </a>
+                        </li>
+                        <li class="personal__item">
+                            <a class="personal__link" href="#">
+                                <img class="personal_icon-user" src="assets/img/user-icon.png" alt="">
+                            </a>
+                        </li>
+                        <li class="personal__item">
+                            <a class="personal__link-cart" href="#">
+                                <img class="personal__cart_icon" src="assets/img/cart-icon.png" alt="">
+                            </a>
+                            <span class="personal__cart-count">3</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__social social">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <img class="social__icon" src="assets/img/facebook-icon.png" alt="">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <img class="social__icon" src="assets/img/pinterest-icon.png" alt="">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <img class="social__icon" src="assets/img/instagram-icon.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -140,14 +145,30 @@
         <div class="about__content">
             <h2 class="about__title title">What makes Smoothie an <span class="title--green">awesome drink?</span></h2>
             <ul class="about__list">
-                <li class="about__item"><span class="about__bold-text">Puffs</span> Texture</li>
-                <li class="about__item"><span class="about__bold-text">100 Calories</span> per drink</li>
-                <li class="about__item">4g Plant Protein</li>
-                <li class="about__item">Good source of <span class="about__bold-text">Magnesium & Vitamin B6</span></li>
-                <li class="about__item"><span class="about__bold-text">No Sugar</span> in our Savory Flavors</li>
-                <li class="about__item"><span class="about__bold-text">Non-GMO, Vegan & Paleo</span></li>
-                <li class="about__item"><span class="about__bold-text">Gluten-Free & Grain-Free</span></li>
-                <li class="about__item"><span class="about__bold-text">Corn-Free & Soy-Free</span></li>
+                <li class="about__item">
+                    <span class="about__bold-text">Puffs</span> Texture
+                </li>
+                <li class="about__item">
+                    <span class="about__bold-text">100 Calories</span> per drink
+                </li>
+                <li class="about__item">
+                    4g Plant Protein
+                </li>
+                <li class="about__item">
+                    Good source of <span class="about__bold-text">Magnesium & Vitamin B6</span>
+                </li>
+                <li class="about__item">
+                    <span class="about__bold-text">No Sugar</span> in our Savory Flavors
+                </li>
+                <li class="about__item">
+                    <span class="about__bold-text">Non-GMO, Vegan & Paleo</span>
+                </li>
+                <li class="about__item">
+                    <span class="about__bold-text">Gluten-Free & Grain-Free</span>
+                </li>
+                <li class="about__item">
+                    <span class="about__bold-text">Corn-Free & Soy-Free</span>
+                </li>
             </ul>
             <button class="about__btn btn btn--yellow-border">
                 About Organic Smoothie
@@ -190,9 +211,11 @@
     <section class="story">
         <div class="story__content">
             <h2 class="story__title title">Our Story</h2>
-            <p class="story__lead text">As products typically using raw fruits or vegetables,
+            <p class="story__lead text">
+                As products typically using raw fruits or vegetables,
                 smoothies include dietary fiber (e.g. pulp, skin, and seeds)
-                and so are thicker than fruit juice, often with a consistency similar to a milkshake.</p>
+                and so are thicker than fruit juice, often with a consistency similar to a milkshake.
+            </p>
             <button class="story__btn btn btn--green-bg">Who we are <img class="btn__arrow-yellow" src=""
                     alt=""></button>
         </div>
@@ -203,9 +226,11 @@
         <h2 class="testimonials__title title">Why clients <span class="title--orange">LOVE</span> us?</h2>
         <div class="testimonials__item">
             <div class="testimonials__content">
-                <q class="testimonials__quote text">"Smoothie is great. I don't know what else to say.
+                <q class="testimonials__quote text">
+                    "Smoothie is great. I don't know what else to say.
                     I will let my mum know about this, she could really
-                    make use of Smoothie! Smoothie saved my business."</q>
+                    make use of Smoothie! Smoothie saved my business."
+                </q>
                 <cite class="testimonials__cite text">-from Santa Monica, CA</cite>
             </div>
             <img class="testimonials__avatar" src="" alt="">
@@ -223,11 +248,13 @@
             <article class="article">
                 <h3 class="article__title title">ASAFOETIDA - THE NEXT TURMERIC?</h3>
                 <time class="article__date" datetime="16-07-2020">Jun 16, 2020</time>
-                <p class="article__excerpt text">If the fruit ingredients and the green vegetable ingredients are both
+                <p class="article__excerpt text">
+                    If the fruit ingredients and the green vegetable ingredients are both
                     juiced ahead of time, the mixed juice doesn't
                     even have to be blended like a smoothie,
                     i.e. a green juice or anything <span class="article__span">Read more</span><img
-                        class="btn__arrow-yellow btn" src="" alt=""></p>
+                        class="btn__arrow-yellow btn" src="" alt="">
+                </p>
             </article>
         </div>
     </section>
