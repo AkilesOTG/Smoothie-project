@@ -527,7 +527,7 @@ text-align: center;
 margin-right: 60px;
 }
 
-.testimonials__quote {;
+.testimonials__quote {
 color: #ffffff;
 display: block;
 line-height: 2;
@@ -623,10 +623,58 @@ font-style: italic;
 
 /* Instagram */
 
+.instagram {
+padding-bottom: 10px;
+}
+
+.instagram__title {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 2;
+    letter-spacing: -0.50px;
+    
+    text-align: center;
+    margin-bottom: 45px
+}
+
+.instagram__title-link {
+    color: #0aa566;    
+}
+
+.instagram__icon-title {
+
+}
+
+.instagram__block {
+display: flex;
+}
+
+.instagram__img {
+flex: 1 1 auto;
+}
+
 
 /* Footer */
 
+.footer {
 
+}
+
+.footer-top {
+background-color: #f6ab3b;    
+}
+
+
+
+
+
+
+
+
+
+.footer-copyright {
+background-color: #6c2c1c;
+}
 
 /* Здесь будут медиа запросы */
 
