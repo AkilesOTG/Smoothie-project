@@ -585,9 +585,7 @@ right: 760px;
     justify-content: center;
 }
 
-.blog__item-thumb {
-    
-}
+.blog__item-thumb {}
 
 .article {
     max-width: 690px;
@@ -643,9 +641,9 @@ right: 760px;
 }
 
 .instagram__icon-title {
-position: relative; 
-top: 7px; 
-margin-right: 5px;
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
 }
 
 .instagram__block {
@@ -653,15 +651,13 @@ margin-right: 5px;
 }
 
 .instagram__img {
-flex: 1;
+    flex: 1;
 }
 
 
 /* Footer */
 
-.footer {
-
-}
+.footer {}
 
 .footer-top {
     display: flex;
@@ -740,6 +736,10 @@ flex: 1;
     background-color: #ffffff;
     border: none;
     margin-bottom: 35px;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 800;
+    color: #6d450c;
 }
 
 .footer-top__subscribe-block {
@@ -769,12 +769,11 @@ flex: 1;
     background-color: #6c2c1c;
     display: flex;
     justify-content: center;
-padding-top: 25px;
+    padding-top: 25px;
 }
 
 .footer-copyright__text {
     font-size: 13px;
-    line-height: 3;
     color: #af8a82;
     position: absolute;
 }
@@ -784,15 +783,11 @@ padding-top: 25px;
 .footer-copyright__btn-block {
     display: flex;
     position: relative;
-    bottom: 50px;
     left: 800px;
 }
 
 .footer-copyright__btn-text {
-    height: 14px;
     font-size: 16px;
-    font-weight: 800;
-    line-height: 2.5;
     color: #ffffff;
 }
 
@@ -801,15 +796,16 @@ padding-top: 25px;
     justify-content: center;
     align-items: center;
     background-color: #f2662f;
+    border-radius: 5px;
     border: none;
     width: 50px;
     height: 50px;
     margin-left: 10px;
+    position: relative;
+    bottom: 50px;
 }
 
-.footer-copyright__btn-arrow-up {
-
-}
+.footer-copyright__btn-arrow-up {}
 
 
 /* Здесь будут медиа запросы */
