@@ -789,6 +789,7 @@ right: 760px;
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .footer-copyright__text {
@@ -800,9 +801,9 @@ right: 760px;
 
 .footer-copyright__btn-block {
     display: flex;
-    position: relative;
-    left: 680px;
-    bottom: 5px;
+    position: absolute;
+    right: 120px;
+    top: 21px;
 }
 
 .footer-copyright__btn-text {
