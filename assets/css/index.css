@@ -192,6 +192,10 @@ body {
 }
 
 .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 38px;
     color: white;
     font-weight: 800;
     font-size: 21px;
@@ -207,19 +211,14 @@ body {
     height: 70px;
     font-size: 24px;
     border: 0;
-    padding-left: 40px;
 }
 
 .btn--green-bg {
     background-color: #0aa566;
-    text-align: left;
-    padding-left: 30px;
 }
 
 .btn__arrow-yellow-header {
-    position: relative;
-    top: 1px;
-    margin-left: 60px;
+    
 }
 
 
@@ -369,15 +368,14 @@ body {
 }
 
 .about__btn {
-    width: 290px;
-    height: 50px;
-    font-size: 16px;
+    width: 380px;
+    height: 60px;
+    font-size: 21px;
+    padding: 0 40px 0 30px;
 }
 
 .btn__arrow-yellow-about {
-    position: relative;
-    top: 2px;
-    margin-left: 20px;
+
 }
 
 .btn--yellow-border {
@@ -441,7 +439,7 @@ body {
 
 .products__btn {
     align-self: center;
-    width: 204px;
+    width: 200px;
     height: 60px;
 }
 
@@ -451,9 +449,7 @@ body {
 }
 
 .btn__arrow-white {
-    position: relative;
-    left: 40px;
-    top: 2px;
+
 }
 
 
@@ -492,9 +488,7 @@ body {
 }
 
 .btn__arrow-yellow-story {
-    position: relative;
-    top: 2px;
-    margin-left: 75px;
+
 }
 
 .story__image-block {
