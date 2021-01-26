@@ -531,19 +531,19 @@ body {
     border: 0;
 }
 
-.btn__arrow-yellow-story {}
-
 .story__image-block {
-    /*margin-right: 310px;*/
+position: relative;
 }
 
-.story__img {}
+.story__img {
 
-/*.story__sketch {
-position: relative;
-bottom: 360px;
-right: 760px;
-} */
+}
+
+.story__sketch {
+    position: absolute;
+    top: 22px;
+    left: -166px;
+}
 
 
 /* Testimonials */
