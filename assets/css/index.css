@@ -363,6 +363,23 @@ body {
 
 .title--green {
     color: #cae941;
+    position: relative;
+}
+
+.title--green::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    height: 13px;
+    background-image: url(/it-incubator/Smoothie-project-start/assets/img/green-line.png);
+    bottom: -8px;
+    right: -13px;
+    /* transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);     */
 }
 
 .about__list {
