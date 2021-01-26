@@ -215,11 +215,26 @@ body {
 
 .btn--green-bg {
     background-color: #0aa566;
+    position: relative;
 }
 
-.btn__arrow-yellow-header {
-    
+.btn--green-bg::after,
+.btn--yellow-border::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+    background-image: url(/it-incubator/Smoothie-project-start/assets/img/yellow-arrow.png);
+    top: 50%;
+    right: 38px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
+
 
 
 /* Smoothies */
@@ -374,13 +389,11 @@ body {
     padding: 0 40px 0 30px;
 }
 
-.btn__arrow-yellow-about {
-
-}
 
 .btn--yellow-border {
     border: 2px solid #fcb438;
     background: none;
+    position: relative;
 }
 
 
@@ -446,9 +459,23 @@ body {
 .btn--white-border {
     border: solid 2px #ffffff;
     background: none;
+    position: relative;
 }
 
-.btn__arrow-white {
+.btn--white-border::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+    background-image: url(/it-incubator/Smoothie-project-start/assets/img/white-arrow.png);
+    top: 50%;
+    right: 36px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 
 }
 
@@ -487,9 +514,7 @@ body {
     border: 0;
 }
 
-.btn__arrow-yellow-story {
-
-}
+.btn__arrow-yellow-story {}
 
 .story__image-block {
     /*margin-right: 310px;*/
