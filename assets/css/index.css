@@ -679,9 +679,26 @@ position: relative;
 
 .article__span {
     font-family: Muli-Bold;
-    margin-right: 10px;
     font-style: italic;
+    position: relative;
 }
+
+.article__span::after { 
+    content: ""; 
+    position: absolute; 
+    display: inline-block; 
+    width: 18px; 
+    height: 10px; 
+    background-image: url(/it-incubator/Smoothie-project-start/assets/img/yellow-arrow-small.png); 
+    top: 50%; 
+    right: -30px; 
+    transform: translateY(-50%); 
+    -webkit-transform: translateY(-50%); 
+    -moz-transform: translateY(-50%); 
+    -ms-transform: translateY(-50%); 
+    -o-transform: translateY(-50%);
+}
+
 
 
 /* Instagram */
