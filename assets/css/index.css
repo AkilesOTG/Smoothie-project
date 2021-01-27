@@ -593,19 +593,21 @@ position: relative;
     display: block;
 }
 
-.testimonials__avatar {}
+.testimonials__buttons {
 
-.testimonials__buttons {}
+}
 
 .testimonials__button-left {
     border: none;
     background: none;
     margin-right: 100px;
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
+}
+.testimonials__button-left::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+    background-image: url(/it-incubator/Smoothie-project-start/assets/img/yellow-arrow-left.png);
 }
 
 .testimonials__button-right {
@@ -613,6 +615,13 @@ position: relative;
     background: none;
 }
 
+.testimonials__button-right::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+    background-image: url(/it-incubator/Smoothie-project-start/assets/img/yellow-arrow.png);
+}
 
 /* Blog */
 
