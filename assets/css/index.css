@@ -718,12 +718,23 @@ position: relative;
 
 .instagram__title-link {
     color: #0aa566;
+    position: relative;
 }
 
-.instagram__icon-title {
-    position: relative;
-    top: 7px;
-    margin-right: 5px;
+.instagram__title-link::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(/it-incubator/Smoothie-project-start/assets/img/instagram-title-icon.png);
+    top: 50%;
+    left: -35px;
+    transform: translateY(-35%);
+-webkit-transform: translateY(-35%);
+    -moz-transform: translateY(-35%);
+    -ms-transform: translateY(-35%);
+    -o-transform: translateY(-35%);
 }
 
 .instagram__block {
