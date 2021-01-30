@@ -41,7 +41,7 @@ body {
 
 .header {
     background: url(/it-incubator/Smoothie-project-start/assets/img/header-bg.png) center no-repeat;
-    height: 100vh;
+    height: 1080px;
 }
 
 .header__top {
@@ -554,6 +554,22 @@ body {
     align-items: center;
     padding-top: 120px;
     padding-bottom: 80px;
+    position: relative;
+}
+
+.testimonials::before {
+    content: "Sarah A";
+    position: absolute;
+    top: 180px;
+    left: 438px;
+    display: inline-block;
+    /* font-family: Muli-Bold; */
+    font-size: 200px;
+    font-weight: 800;
+    letter-spacing: -4px;
+    color: rgba(82, 25, 5, 0.6);
+    opacity: 0.6;
+    z-index: 1;    
 }
 
 .testimonials__title {
@@ -570,6 +586,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 145px;
+    z-index: 2;
 }
 
 .testimonials__content {
@@ -738,10 +755,21 @@ body {
     display: flex;
 }
 
-.instagram__img {
-    flex: 1;
+.instagram__item {
+    flex: 1 0 20%;
+    position: relative;
 }
 
+.instagram__item::after {
+content: "";
+    position: absolute;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(/it-incubator/Smoothie-project-start/assets/img/instagram-white-icon.png);
+    bottom: 20px;
+    right: 22px;
+}
 
 /* Footer */
 
