@@ -31,6 +31,11 @@ a {
     text-decoration: none;
 }
 
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -218,6 +223,11 @@ body {
     position: relative;
 }
 
+.btn--green-bg:hover {
+    background-color: #0aa566;
+    color: #f1f1f1;
+}
+
 .btn--green-bg::after,
 .btn--yellow-border::after {
     content: "";
@@ -235,6 +245,9 @@ body {
     -o-transform: translateY(-50%);
 }
 
+.btn--green-bg:hover::after {
+    right: 28px;
+}
 
 
 /* Smoothies */
