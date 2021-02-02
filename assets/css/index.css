@@ -426,6 +426,14 @@ body {
     position: relative;
 }
 
+.btn--yellow-border:hover {
+    color: #f1f1f1;
+}
+
+.btn--yellow-border:hover::after {
+    right: 28px;
+}
+
 
 /* Products */
 
@@ -506,7 +514,15 @@ body {
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
+}
 
+.btn--white-border:hover {
+    color: #f1f1f1;
+    border: solid 4px #f1f1f1;
+}
+
+.btn--white-border:hover::after {
+    right: 28px;
 }
 
 
