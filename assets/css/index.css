@@ -44,7 +44,7 @@ body {
 
 .header {
     background: url(/it-incubator/Smoothie-project-start/assets/img/header-bg.png) center no-repeat;
-    height: 1080px;
+    height: 100vh;
 }
 
 .header__top {
@@ -97,7 +97,7 @@ body {
     right: 40px;
     top: 20px;   
     }
-    
+
     .header__burger-btn-icon {
     width: 100%;
     }
@@ -821,6 +821,11 @@ content: "";
     right: 22px;
 }
 
+.instagram__img {
+    width: 100%;
+    object-fit: cover;
+}
+
 /* Footer */
 
 .footer {}
@@ -1045,14 +1050,13 @@ content: "";
         .smoothies__item:nth-child(3), 
         .smoothies__item:nth-child(7) {
             border-right: 2px solid #f6edde;
-  }
-  
-  .smoothies__item:nth-child(2), 
-  .smoothies__item:nth-child(6) {
-      border-right: none;
-  } 
- 
-  
+}
+
+    .smoothies__item:nth-child(2), 
+    .smoothies__item:nth-child(6) {
+            border-right: none;
+    } 
+
 .about {
     flex-direction: column;
     align-items: center;
@@ -1069,16 +1073,15 @@ content: "";
 
 .about__content {
     margin-top: 50px;
-    margin-left: 100px;
     margin-bottom: 50px;
 }
 
 .products {
-    flex-flow: row wrap;
+    overflow-x: auto;
 } 
 
 .products__item {
-    flex: 1 1 50%;
+    flex: 1 0 70%;
 }
 
 .story {
