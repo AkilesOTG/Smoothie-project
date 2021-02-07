@@ -61,9 +61,7 @@ body {
     margin-bottom: 105px;
 }
 
-.menu {
-
-}
+.menu {}
 
 .header__menu {
     font-size: 1.6rem;
@@ -106,6 +104,10 @@ body {
 
 .header__burger-btn-icon {
     width: 100%;
+}
+
+.header__burger-menu-block {
+    display: none;
 }
 
 .header__icons {
@@ -1005,6 +1007,8 @@ body {
 
 @media (max-width: 768px) {
 
+    body {}
+
     .header__top {
         display: flex;
         justify-content: center;
@@ -1026,10 +1030,46 @@ body {
         display: block;
         background-color: #a8a8a833;
         padding: 5px;
-        z-index: 5;
+        z-index: 15;
     }
 
-    .header__burger-btn-icon {}
+    .header__burger-menu-block {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+        background-color: #0aa566;
+    }
+
+    .header__burger-menu {
+        text-transform: uppercase;
+    }
+
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu__item {
+        margin: 0 0 30px 0;
+    }
+
+    .menu__link {
+        font-size: 3rem;
+    }
+
+    .header__burger-icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+
 
     .smoothies__lead {
         margin-left: 30px;
