@@ -1207,7 +1207,7 @@ body {
     }
 
     .article::before {
-    width: 100%;
+        width: 100%;
     }
 
     .instagram__block {
@@ -1238,11 +1238,9 @@ body {
         margin-top: 60px;
     }
 
-    .footer-top__subscribe-input {
-    }
+    .footer-top__subscribe-input {}
 
-    .footer-top__subscribe-slogan::before {
-    }
+    .footer-top__subscribe-slogan::before {}
 
 }
 
@@ -1250,8 +1248,7 @@ body {
 
 @media (max-width: 767px) {
 
-    body {   
-    }
+    body {}
 
     .header {
         height: 80vh;
@@ -1338,7 +1335,7 @@ body {
     }
 
     .text {
-    font-size: 2rem;
+        font-size: 2rem;
     }
 
     .smoothies__features {
@@ -1414,9 +1411,9 @@ body {
 
     .about__btn {
         width: 90%;
-    font-size: 2.0rem;
-    padding: 0 20px 0 20px;
-    margin-left: 20px;
+        font-size: 2.0rem;
+        padding: 0 20px 0 20px;
+        margin-left: 20px;
     }
 
     .btn--yellow-border::after {
@@ -1428,12 +1425,18 @@ body {
     }
 
     .products__item {
-        flex: 1 0 70%;
+        flex: 1 0 75%;
+        padding: 80px 0 60px 0;
+    }
+
+    .products__caption {
+        font-size: 2rem;
     }
 
     .story {
         flex-direction: column;
-        padding-bottom: 120px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 
     .story__content {
@@ -1484,7 +1487,7 @@ body {
     }
 
     .article::before {
-    width: 100%;
+        width: 100%;
     }
 
     .instagram__block {
@@ -1520,7 +1523,7 @@ body {
     }
 
     .footer-top__subscribe-slogan::before {
-        display:none;
+        display: none;
     }
 
 }
