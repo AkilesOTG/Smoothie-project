@@ -1407,6 +1407,7 @@ body {
 
     .about__list {
         margin-left: 20px;
+        font-size: 1.5rem;
     }
 
     .about__btn {
@@ -1445,16 +1446,32 @@ body {
         margin-bottom: 50px;
     }
 
+    .story__title {
+        font-size: 4rem;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    }
+
+    .story__lead {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .story__btn {
+        width: 250px;
+        margin-left: 20px;
+    }
+
     .story__image-block {}
 
     .story__sketch {
-        top: -10px;
-        left: -50px;
+        top: -30px;
+        left: 10px;
         max-width: 100%;
     }
 
     .testimonials {
-        padding-top: 100px;
+        padding-top: 80px;
     }
 
     .testimonials::before {
@@ -1462,7 +1479,9 @@ body {
     }
 
     .testimonials__title {
-        margin-bottom: 80px;
+        font-size: 4rem;
+        margin-left: 20px;
+        margin-bottom: 60px;
     }
 
     .testimonials__item {
@@ -1471,11 +1490,13 @@ body {
     }
 
     .testimonials__content {
-        margin: 0;
+        margin: 0 20px 0 20px;
     }
 
     .testimonials__avatar {
         margin-bottom: 50px;
+        margin-left: 20px;
+    margin-right: 20px;
     }
 
     .blog {
