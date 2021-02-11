@@ -1,0 +1,230 @@
+// main: ./../main.less
+
+.header {
+    background: url(/it-incubator/Smoothie-project-start/assets/img/header-bg.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header__top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 105px;
+}
+
+.header__menu {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    padding-top: 25px;
+} 
+
+.menu {}
+
+.menu__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    text-shadow: 2px 2px 5px #5e5e5e;
+}
+
+.header__logo {
+    margin-right: 60px;
+}
+
+.logo__img {
+    max-width: 100%;
+}
+
+.header__burger-btn {
+    display: none;
+    border: none;
+    background-color: transparent;
+    width: 50px;
+    position: fixed;
+    right: 40px;
+    top: 20px;
+}
+
+.header__burger-btn-icon {
+    width: 100%;
+}
+
+.header__burger-menu-block {
+    display: none;
+}
+
+.header__icons {
+    display: flex;
+}
+
+.header__personal {
+    padding-top: 25px;
+    margin-right: 135px;
+    position: relative;
+}
+
+.header__personal::after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: #ffd68f;
+    position: absolute;
+    top: 50%;
+    right: -90px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.personal {}
+
+.personal__list {
+    display: flex;
+}
+
+.personal__item {
+    list-style: none;
+    margin-right: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal__item:last-child {
+    margin-right: 0;
+    position: relative;
+}
+
+
+.personal__cart-count {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+    font-size: 1rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -12px;
+}
+
+.header__social {
+    padding-top: 20px;
+}
+
+.social {}
+
+.social__list {
+    display: flex;
+}
+
+.social__item {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    list-style: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 38px;
+    color: white;
+    font-weight: 800;
+    font-size: 2.1rem;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.header__btn {
+    width: 280px;
+    height: 70px;
+    font-size: 2.4rem;
+    border: 0;
+}
+
+.btn--green-bg {
+    background-color: #0aa566;
+    position: relative;
+}
+
+.btn--green-bg:hover {
+    background-color: #0aa566;
+    color: #f1f1f1;
+}
+
+.btn--green-bg::after,
+.btn--yellow-border::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+    background-image: url(/it-incubator/Smoothie-project-start/assets/img/yellow-arrow.png);
+    top: 50%;
+    right: 38px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.btn--green-bg:hover::after {
+    right: 28px;
+}
+
