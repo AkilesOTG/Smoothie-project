@@ -1,30 +1,11 @@
 // out: ./main.css, compress: true. sourceMap: true
 
 
+@import "./_fonts.less";
+
 /* переменные здесь */
 
 @import "./_variables.less";
-
-/* Здесь подключаем шрифты, используя правило @font-face*/
-@font-face {
-    font-family: "Muli";
-    src: url(/it-incubator/Smoothie-project-start/assets/fonts/Muli.ttf);
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Muli-Bold";
-    src: url(/it-incubator/Smoothie-project-start/assets/fonts/Muli-Bold.ttf);
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Muli-Italic";
-    src: url(/it-incubator/Smoothie-project-start/assets/fonts/Muli-Italic.ttf);
-    font-style: italic;
-}
-
-/*И повторяем этот кусок кода изменяя имя шрифта и путь к файлу*/
 
 
 /* Общие стили */
@@ -47,7 +28,7 @@ a {
 
 html,
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: @main-font;
     font-size: 10px;
 }
 
@@ -81,7 +62,7 @@ body {
 }
 
 .title {
-    font-family: 'Muli-Bold';
+    font-family: @main-font-bold;
     letter-spacing: -1px;
 }
 
@@ -409,7 +390,7 @@ body {
     top: 180px;
     left: 438px;
     display: inline-block;
-    font-family: 'Muli-Bold';
+    font-family: @main-font-bold;
     font-size: 20rem;
     font-weight: 800;
     letter-spacing: -4px;
@@ -554,7 +535,7 @@ body {
 }
 
 .article__span {
-    font-family: 'Muli-Bold';
+    font-family: @main-font-bold;
     font-style: italic;
     position: relative;
 }
