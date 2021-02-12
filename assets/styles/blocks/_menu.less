@@ -5,18 +5,19 @@
 .menu__item {
     display: inline-block;
     margin-right: 20px;
-}
 
-.menu__item:last-child {
-    margin-right: 0;
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .menu__link {
     color: #ffffff;
     font-size: 1.6rem;
     text-decoration: none;
+
+    &:hover {
+        text-shadow: 2px 2px 5px #5e5e5e;
+    }
 }
 
-.menu__link:hover {
-    text-shadow: 2px 2px 5px #5e5e5e;
-}
