@@ -1,0 +1,66 @@
+// main: ./../main.less
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 38px;
+    color: white;
+    font-weight: 800;
+    font-size: 2.1rem;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+
+    &--green-bg {
+        background-color: #0aa566;
+        position: relative;
+        
+        &:hover {
+            background-color: #0aa566;
+            color: #f1f1f1;
+        }
+
+        &:hover::after {
+            right: 28px;
+        }
+
+        &::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+    background-image: url(/it-incubator/Smoothie-project-start/assets/img/yellow-arrow.png);
+    top: 50%;
+    right: 38px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+    }
+
+    &--yellow-border::after {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 30px;
+        height: 16px;
+        background-image: url(/it-incubator/Smoothie-project-start/assets/img/yellow-arrow.png);
+        top: 50%;
+        right: 38px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+
+}
+
+
+
