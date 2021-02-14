@@ -43,9 +43,7 @@
 
     
     &--yellow-border {
-        border: 2px solid @primary-color;
-        background: none;
-        position: relative;
+        .btn-border(@primary-color);
 
         &:hover {
             color: #f1f1f1;
@@ -74,9 +72,7 @@
 
 
     &--white-border {
-        border: solid 2px @btn-text-color;
-        background: none;
-        position: relative;
+        .btn-border(@btn-text-color);
 
         &:hover {
             color: #f1f1f1;
