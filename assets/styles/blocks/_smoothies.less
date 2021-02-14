@@ -1,0 +1,90 @@
+// main: ./../main.less
+
+.smoothies {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smoothies__title {
+    font-size: 5rem;
+    margin: 100px 0 55px 0;
+    color: #f7ae3b;
+}
+
+.smoothies__lead {
+    max-width: 915px;
+    margin-bottom: 60px;
+    font-size: 1.8rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.text {
+    color: #1e1e1e;
+    font-size: 1.8rem;
+}
+
+.smoothies__features {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 1010px;
+}
+
+.smoothies__item {
+    flex: 1 0 240px;
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+    text-align: center;
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4) {
+        border-bottom: 2px solid #f6edde;
+    }
+    
+    &:nth-child(1),
+    &:nth-child(5),
+    &:nth-child(2),
+    &:nth-child(6),
+    &:nth-child(3),
+    &:nth-child(7) {
+        border-right: 2px solid #f6edde;
+    }
+}
+
+
+
+/* .smoothies__item:nth-child(1),
+.smoothies__item:nth-child(2),
+.smoothies__item:nth-child(3) {
+    border-bottom: 2px solid #f6edde;
+    border-right: 2px solid #f6edde;  
+}
+.smoothies__item:nth-child(4) {
+    border-bottom: 2px solid #f6edde;
+}
+    .smoothies__item:nth-child(5),
+    .smoothies__item:nth-child(6),
+    .smoothies__item:nth-child(7) {
+        border-right: 2px solid #f6edde; 
+} */
+
+.smoothies__icon {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+.smoothies__text {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #f2612d;
+}
