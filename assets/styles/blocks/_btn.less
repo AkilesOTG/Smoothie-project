@@ -9,6 +9,7 @@
     font-weight: 800;
     font-size: @base-font-size * 2.1;
     border-radius: @btn-border-radius;
+    transition: all .4s ease-out;
 
 
     &--green-bg {
@@ -22,6 +23,7 @@
 
         &:hover::after {
             right: 28px;
+            transition: all .4s ease-out;
         }
 
         &::after {
@@ -73,6 +75,7 @@
 
     &--white-border {
         .btn-border(@btn-text-color);
+        transition: all .2s ease-out;
 
         &:hover {
             color: #f1f1f1;
@@ -81,6 +84,7 @@
 
         &:hover::after {
             right: 28px;
+            transition: all .2s ease-out;
         }
 
         &::after {

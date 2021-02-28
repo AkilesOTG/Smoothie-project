@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/styles/main.min.css">
+    <link rel="stylesheet" href="assets/libraries/WOW-master/css/libs/animate.css">
     <title>Smoothie project</title>
 </head>
 
@@ -43,81 +44,81 @@
             </div>
 
 
-<!-- menu button -->
+            <!-- menu button -->
             <a href="#mob-menu-open" class="header__burger-btn">
                 <img src="assets/img/menu-burger.svg" alt="" class="header__burger-btn-icon">
-                            </a>
+            </a>
 
-<!-- mobile menu -->
-<div class="header__burger-menu-block" id="mob-menu-open">
+            <!-- mobile menu -->
+            <div class="header__burger-menu-block" id="mob-menu-open">
 
-    <nav class="header__burger-menu menu">
-        <ul class="menu__list">
-            <li class="menu__item">
-                <a class="menu__link" href="#">Shop</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="#">Home</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="#">Story</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="#">About</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="#">Blog</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="#">Testimonials</a>
-            </li>
-        </ul>
-    </nav>
+                <nav class="header__burger-menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Shop</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Story</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Testimonials</a>
+                        </li>
+                    </ul>
+                </nav>
 
-    <div class="header__burger-icons">
-        <div class="header__personal personal">
-            <ul class="personal__list">
-                <li class="personal__item">
-                    <a class="personal__link" href="#">
-                        <img class="personal__icon-search" src="assets/img/search-icon.png" alt="">
-                    </a>
-                </li>
-                <li class="personal__item">
-                    <a class="personal__link" href="#">
-                        <img class="personal_icon-user" src="assets/img/user-icon.png" alt="">
-                    </a>
-                </li>
-                <li class="personal__item">
-                    <a class="personal__link-cart" href="#">
-                        <img class="personal__cart_icon" src="assets/img/cart-icon.png" alt="">
-                    </a>
-                    <span class="personal__cart-count">3</span>
-                </li>
-            </ul>
-        </div>
+                <div class="header__burger-icons">
+                    <div class="header__personal personal">
+                        <ul class="personal__list">
+                            <li class="personal__item">
+                                <a class="personal__link" href="#">
+                                    <img class="personal__icon-search" src="assets/img/search-icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="personal__item">
+                                <a class="personal__link" href="#">
+                                    <img class="personal_icon-user" src="assets/img/user-icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="personal__item">
+                                <a class="personal__link-cart" href="#">
+                                    <img class="personal__cart_icon" src="assets/img/cart-icon.png" alt="">
+                                </a>
+                                <span class="personal__cart-count">3</span>
+                            </li>
+                        </ul>
+                    </div>
 
-        <div class="header__social social">
-            <ul class="social__list">
-                <li class="social__item">
-                    <a class="social__link" href="#">
-                        <img class="social__icon" src="assets/img/facebook-icon.png" alt="">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link" href="#">
-                        <img class="social__icon" src="assets/img/pinterest-icon.png" alt="">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link" href="#">
-                        <img class="social__icon" src="assets/img/instagram-icon.png" alt="">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
+                    <div class="header__social social">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    <img class="social__icon" src="assets/img/facebook-icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    <img class="social__icon" src="assets/img/pinterest-icon.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    <img class="social__icon" src="assets/img/instagram-icon.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-</div>
+            </div>
 
 
             <div class="header__icons">
@@ -166,7 +167,7 @@
         </div>
 
         <div class="header__content">
-            <button class="header__btn btn btn--green-bg">
+            <button class="header__btn btn btn--green-bg wow headShake">
                 Shop Now
             </button>
         </div>
@@ -398,7 +399,8 @@
 
                 <div class="footer-top__subscribe">
                     <h5 class="footer-top__subscribe-title title">Don’t miss out!</h5>
-                    <input class="footer-top__subscribe-input" type="text" value="Subscribe to our newsletter" name="" id="">
+                    <input class="footer-top__subscribe-input" type="text" value="Subscribe to our newsletter" name=""
+                        id="">
 
                     <div class="footer-top__subscribe-block">
                         <span class="footer-top__subscribe-slogan">Follow Us</span>
@@ -437,6 +439,12 @@
             </div>
         </div>
     </footer>
+
+<script src="/assets/libraries/WOW-master/dist/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+
 </body>
 
 </html>
